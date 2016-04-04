@@ -3,7 +3,7 @@
     {
       "housings": [
         {
-          "Apartment": [
+          "apartment": [
             {
               "id": "Apt One"
             },
@@ -13,7 +13,7 @@
           ]
         },
         {
-          "House": [
+          "house": [
             {
               "id": "House One"
             },
@@ -24,10 +24,11 @@
         }
       ]
     },
+
     {
       "jobs": [
         {
-          "Software": [
+          "software": [
             {
               "id": "Software-Job One"
             },
@@ -37,7 +38,7 @@
           ]
         },
         {
-          "Non-Software": [
+          "non-software": [
             {
               "id": "Non-Software-Job One"
             },

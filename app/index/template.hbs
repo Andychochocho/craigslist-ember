@@ -1,1 +1,19 @@
 <h1>Categories</h1>
+
+Apartment:
+{{#each model as |category|}}
+{{#each category.housings as |housing|}}
+{{#each housing.apartment as |apartment|}}
+  <li>{{apartment.id}}</li>
+{{/each}}
+{{/each}}
+{{/each}}
+<br>
+House:
+{{#each model as |category|}}
+{{#each category.housings as |housing|}}
+{{#each housing.house as |house|}}
+  <li>{{house.id}}</li>
+{{/each}}
+{{/each}}
+{{/each}}
