@@ -7,7 +7,7 @@ Apartment:
 {{#each housing.apartment as |apartment|}}
   <li>
     <!-- If things mess up it is because there are no routes set for apartment yet -->
-    {{#link-to 'apartment' apartment.id}}{{apartment.id}}{{/link-to}}
+    {{#link-to 'apartment' apartment.post-num}}{{apartment.post-num}}{{/link-to}}
   </li>
 {{/each}}
 {{/each}}
@@ -19,7 +19,7 @@ House:
 {{#each housing.house as |house|}}
   <li>
     <!-- If things mess up it is because there are no routes set for housing yet -->
-    {{#link-to 'house' house.id}}{{house.id}}{{/link-to}}
+    {{#link-to 'house' house.post-num}}{{house.post-num}}{{/link-to}}
   </li>
 {{/each}}
 {{/each}}
@@ -27,23 +27,23 @@ House:
 
 
 <h3>Jobs</h3>
-Software Jobs
+Software Jobs:
 {{#each model as |category|}}
 {{#each category.jobs as |job|}}
 {{#each job.software as |software|}}
   <li>
-    {{software.id}}
+    {{software.post-num}}
   </li>
 {{/each}}
 {{/each}}
 {{/each}}
 <br>
-Non-Software Jobs
+Non-Software Jobs:
 {{#each model as |category|}}
 {{#each category.jobs as |job|}}
 {{#each job.non-software as |non-software|}}
   <li>
-    {{non-software.id}}
+    {{non-software.post-num}}
   </li>
 {{/each}}
 {{/each}}

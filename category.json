@@ -5,20 +5,20 @@
         {
           "apartment": [
             {
-              "id": "Apt One"
+              "post-num": "Apt One"
             },
             {
-              "id": "Apt Two"
+              "post-num": "Apt Two"
             }
           ]
         },
         {
           "house": [
             {
-              "id": "House One"
+              "post-num": "House One"
             },
             {
-              "id": "House Two"
+              "post-num": "House Two"
             }
           ]
         }
@@ -30,20 +30,20 @@
         {
           "software": [
             {
-              "id": "Software-Job One"
+              "post-num": "Software-Job One"
             },
             {
-              "id": "Software-Job Two"
+              "post-num": "Software-Job Two"
             }
           ]
         },
         {
           "non-software": [
             {
-              "id": "Non-Software-Job One"
+              "post-num": "Non-Software-Job One"
             },
             {
-              "id": "Non-Software-Job Two"
+              "post-num": "Non-Software-Job Two"
             }
           ]
         }
