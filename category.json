@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "housings": [
+        {
+          "Apartment": [
+            {
+              "id": "Apt One"
+            },
+            {
+              "id": "Apt Two"
+            }
+          ]
+        },
+        {
+          "House": [
+            {
+              "id": "House One"
+            },
+            {
+              "id": "House Two"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobs": [
+        {
+          "Software": [
+            {
+              "id": "Software-Job One"
+            },
+            {
+              "id": "Software-Job Two"
+            }
+          ]
+        },
+        {
+          "Non-Software": [
+            {
+              "id": "Non-Software-Job One"
+            },
+            {
+              "id": "Non-Software-Job Two"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
